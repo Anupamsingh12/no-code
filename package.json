@@ -1,0 +1,23 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "No Code Platform Backend API for 3D Designs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anupamsingh12",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1342.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "formidable": "^2.1.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.2",
+    "uuid": "^9.0.0"
+  }
+}
