@@ -37,12 +37,12 @@ List of available routes:
 requires "authentication" in header with the  access token returned in login api in api's marked *
 - Save Design - POST /api/design*
 - Get All Design - GET /api/design/all
-- Get Design By Id - POST /api/design/<design id>
-- Delete Design - DELETE /api/design/<design id>*
-- Update Design - PUT /api/design/<design id>*
+- Get Design By Id - POST /api/design/design_id
+- Delete Design - DELETE /api/design/design_id*
+- Update Design - PUT /api/design/design_id*
 - search Design - GET /api/design/search?p={YOUR_SEARCH_STRING}
-- Add Design asset - POST /api/design/asset/<design id>*
-- View Design asset - GET /api/design/asset/<design id>*
+- Add Design asset - POST /api/design/asset/design_id*
+- View Design asset - GET /api/design/asset/design_id*
 
 
 
