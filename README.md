@@ -27,7 +27,7 @@ SECRET_KEY=AWS_SECRET_ACCESS_KEY_HERE
 <br />
 
 ### API Endpoints
-
+Please find postman collection named "assignment.postman_collection.json" in the source code.
 List of available routes:  
 **User Auth Routes**:
 - Signup - POST /api/auth/signup
