@@ -1,0 +1,1245 @@
+{
+	"info": {
+		"_postman_id": "aba264ac-4de5-4fd9-8dc3-c0f6d28ef038",
+		"name": "assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Design",
+			"item": [
+				{
+					"name": "add Design",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDFjNjA4ZmY0YzlhMjU3MjZiM2IyMjUiLCJlbWFpbCI6InNhbUB5b3BtYWlsLmNvbSIsImlhdCI6MTY3OTYyODgwOX0.EPKfVaBsluMQDEG7AWPS4h_Oxkw1v2ssGVZbaVKXuiA",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"product7\",\r\n    \"description\":\"product 7 sadas asd as das dasd\",\r\n    \"price\":134,\r\n    \"tags\":[\"sasa\",\"asda\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:3000/api/design",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"design"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "add Design",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDFjNjA4ZmY0YzlhMjU3MjZiM2IyMjUiLCJlbWFpbCI6InNhbUB5b3BtYWlsLmNvbSIsImlhdCI6MTY3OTU4MTc2MH0.7n-GqhOAKdUCTKqckJ6iw6OU1SvXFOkPgJpDFWrlWgU",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\":\"product2\",\r\n    \"description\":\"product1product1product1product1\",\r\n    \"price\":13\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/design",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"design"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "238"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"ee-s7xR1QDkFaRM8itEmWG/1o12KiQ\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Mar 2023 02:53:38 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"title\": \"product2\",\n    \"description\": \"product1product1product1product1\",\n    \"creator\": \"641d10b2494417a009ca93b5\",\n    \"price\": 13,\n    \"_id\": \"641d10b2494417a009ca93b6\",\n    \"created_at\": \"2023-03-24T02:53:38.439Z\",\n    \"updated_at\": \"2023-03-24T02:53:38.439Z\",\n    \"__v\": 0\n}"
+						},
+						{
+							"name": "add Design",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDFjNjA4ZmY0YzlhMjU3MjZiM2IyMjUiLCJlbWFpbCI6InNhbUB5b3BtYWlsLmNvbSIsImlhdCI6MTY3OTYyODgwOX0.EPKfVaBsluMQDEG7AWPS4h_Oxkw1v2ssGVZbaVKXuiA",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\":\"product7\",\r\n    \"description\":\"product 7 sadas asd as das dasd\",\r\n    \"price\":134,\r\n    \"tags\":[\"sasa\",\"asda\"]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/design",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"design"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "261"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"105-MaMlwLXi5LtVGMdQKNmkk+ueiyQ\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Mar 2023 03:51:49 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"title\": \"product7\",\n    \"description\": \"product 7 sadas asd as das dasd\",\n    \"creator\": \"641c608ff4c9a25726b3b225\",\n    \"price\": 134,\n    \"tags\": [\n        \"sasa\",\n        \"asda\"\n    ],\n    \"_id\": \"641d1e556412fa985762d27e\",\n    \"created_at\": \"2023-03-24T03:51:49.385Z\",\n    \"updated_at\": \"2023-03-24T03:51:49.385Z\",\n    \"__v\": 0\n}"
+						}
+					]
+				},
+				{
+					"name": "get Design by Id",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDFjNjA4ZmY0YzlhMjU3MjZiM2IyMjUiLCJlbWFpbCI6InNhbUB5b3BtYWlsLmNvbSIsImlhdCI6MTY3OTU4MTc2MH0.7n-GqhOAKdUCTKqckJ6iw6OU1SvXFOkPgJpDFWrlWgU",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"sam karan\",\r\n    \"description\":\"sam@yopmail.com\",\r\n    \"price\":12\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:3000/api/design/641c72213193b03b5d43aecc",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"design",
+								"641c72213193b03b5d43aecc"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get Design by Id",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDFjNjA4ZmY0YzlhMjU3MjZiM2IyMjUiLCJlbWFpbCI6InNhbUB5b3BtYWlsLmNvbSIsImlhdCI6MTY3OTU4MTc2MH0.7n-GqhOAKdUCTKqckJ6iw6OU1SvXFOkPgJpDFWrlWgU",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\":\"sam karan\",\r\n    \"description\":\"sam@yopmail.com\",\r\n    \"price\":12\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/design/641c72213193b03b5d43aecc",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"design",
+										"641c72213193b03b5d43aecc"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "224"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"e0-6kYR+He1+1UmdXvzwyVfRGwPsOk\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Mar 2023 02:54:06 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"_id\": \"641c72213193b03b5d43aecc\",\n        \"title\": \"sam karan\",\n        \"description\": \"sam@yopmail.com\",\n        \"creator\": \"641c72213193b03b5d43aecb\",\n        \"price\": 12,\n        \"created_at\": \"2023-03-23T15:37:05.774Z\",\n        \"updated_at\": \"2023-03-23T15:37:05.774Z\",\n        \"__v\": 0\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "delete Design",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDFjNjA4ZmY0YzlhMjU3MjZiM2IyMjUiLCJlbWFpbCI6InNhbUB5b3BtYWlsLmNvbSIsImlhdCI6MTY3OTU4MTc2MH0.7n-GqhOAKdUCTKqckJ6iw6OU1SvXFOkPgJpDFWrlWgU",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"sample product\",\r\n    \"description\":\"sam@yopmail.com\",\r\n    \"price\":12\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:3000/api/design/641c70bf0bc5b28b2f738002",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"design",
+								"641c70bf0bc5b28b2f738002"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "delete Design",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDFjNjA4ZmY0YzlhMjU3MjZiM2IyMjUiLCJlbWFpbCI6InNhbUB5b3BtYWlsLmNvbSIsImlhdCI6MTY3OTU4MTc2MH0.7n-GqhOAKdUCTKqckJ6iw6OU1SvXFOkPgJpDFWrlWgU",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\":\"sample product\",\r\n    \"description\":\"sam@yopmail.com\",\r\n    \"price\":12\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/design/641c70bf0bc5b28b2f738002",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"design",
+										"641c70bf0bc5b28b2f738002"
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "30"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"1e-P6v+OndNU0DYw/azaEW00XLfE9U\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Mar 2023 02:54:01 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Design not Found\"\n}"
+						}
+					]
+				},
+				{
+					"name": "get All Design",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDFjNjA4ZmY0YzlhMjU3MjZiM2IyMjUiLCJlbWFpbCI6InNhbUB5b3BtYWlsLmNvbSIsImlhdCI6MTY3OTU4MTc2MH0.7n-GqhOAKdUCTKqckJ6iw6OU1SvXFOkPgJpDFWrlWgU",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"sam karan\",\r\n    \"description\":\"sam@yopmail.com\",\r\n    \"price\":12\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:3000/api/design/all?search=sasa",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"design",
+								"all"
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": "sasa"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get All Design",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDFjNjA4ZmY0YzlhMjU3MjZiM2IyMjUiLCJlbWFpbCI6InNhbUB5b3BtYWlsLmNvbSIsImlhdCI6MTY3OTU4MTc2MH0.7n-GqhOAKdUCTKqckJ6iw6OU1SvXFOkPgJpDFWrlWgU",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\":\"sam karan\",\r\n    \"description\":\"sam@yopmail.com\",\r\n    \"price\":12\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/design/all",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"design",
+										"all"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "691"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2b3-Qrx96125vRXR4iK2gpgHza08vRg\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Mar 2023 02:53:44 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"_id\": \"641c72213193b03b5d43aecc\",\n        \"title\": \"sam karan\",\n        \"description\": \"sam@yopmail.com\",\n        \"creator\": \"641c72213193b03b5d43aecb\",\n        \"price\": 12,\n        \"created_at\": \"2023-03-23T15:37:05.774Z\",\n        \"updated_at\": \"2023-03-23T15:37:05.774Z\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"641c72453193b03b5d43aecf\",\n        \"title\": \"sample product\",\n        \"description\": \"sam@yopmail.com\",\n        \"creator\": \"641c72453193b03b5d43aece\",\n        \"price\": 12,\n        \"created_at\": \"2023-03-23T15:37:41.816Z\",\n        \"updated_at\": \"2023-03-23T16:16:35.829Z\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"641d10b2494417a009ca93b6\",\n        \"title\": \"product2\",\n        \"description\": \"product1product1product1product1\",\n        \"creator\": \"641d10b2494417a009ca93b5\",\n        \"price\": 13,\n        \"created_at\": \"2023-03-24T02:53:38.439Z\",\n        \"updated_at\": \"2023-03-24T02:53:38.439Z\",\n        \"__v\": 0\n    }\n]"
+						},
+						{
+							"name": "get All Design",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDFjNjA4ZmY0YzlhMjU3MjZiM2IyMjUiLCJlbWFpbCI6InNhbUB5b3BtYWlsLmNvbSIsImlhdCI6MTY3OTU4MTc2MH0.7n-GqhOAKdUCTKqckJ6iw6OU1SvXFOkPgJpDFWrlWgU",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\":\"sam karan\",\r\n    \"description\":\"sam@yopmail.com\",\r\n    \"price\":12\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/design/all?search=sasa",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"design",
+										"all"
+									],
+									"query": [
+										{
+											"key": "search",
+											"value": "sasa"
+										}
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "263"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"107-rbdYq2SMKRZf8tVdWxRNlfm5SpI\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Mar 2023 03:56:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"_id\": \"641d1e556412fa985762d27e\",\n        \"title\": \"product7\",\n        \"description\": \"product 7 sadas asd as das dasd\",\n        \"creator\": \"641c608ff4c9a25726b3b225\",\n        \"price\": 134,\n        \"tags\": [\n            \"sasa\",\n            \"asda\"\n        ],\n        \"created_at\": \"2023-03-24T03:51:49.385Z\",\n        \"updated_at\": \"2023-03-24T03:51:49.385Z\",\n        \"__v\": 0\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "update design",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDFkMGQyNjBmYjM4YTgxZGU5YjkxNGEiLCJlbWFpbCI6InNhbTFAeW9wbWFpbC5jb20iLCJpYXQiOjE2Nzk2Mjc1NDh9.ZE5_42UMQzTvjEtnmbeUMjTCC3ju5irRmKQXLlHe1h8",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"sample product\",\r\n    \"description\":\"sam@yopmail.com\",\r\n    \"price\":12\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:3000/api/design/641c72453193b03b5d43aecf",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"design",
+								"641c72453193b03b5d43aecf"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "update design",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDFkMGQyNjBmYjM4YTgxZGU5YjkxNGEiLCJlbWFpbCI6InNhbTFAeW9wbWFpbC5jb20iLCJpYXQiOjE2Nzk2Mjc1NDh9.ZE5_42UMQzTvjEtnmbeUMjTCC3ju5irRmKQXLlHe1h8",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\":\"sample product\",\r\n    \"description\":\"sam@yopmail.com\",\r\n    \"price\":12\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/design/641c72453193b03b5d43aecf",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"design",
+										"641c72453193b03b5d43aecf"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "227"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"e3-5zgfwNoRUwDhxhiseyJ5+q1rPLk\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Mar 2023 03:12:49 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"_id\": \"641c72453193b03b5d43aecf\",\n    \"title\": \"sample product\",\n    \"description\": \"sam@yopmail.com\",\n    \"creator\": \"641c72453193b03b5d43aece\",\n    \"price\": 12,\n    \"created_at\": \"2023-03-23T15:37:41.816Z\",\n    \"updated_at\": \"2023-03-24T03:12:49.333Z\",\n    \"__v\": 0\n}"
+						}
+					]
+				},
+				{
+					"name": "search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:3000/api/design/search?search=sasa",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"design",
+								"search"
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": "sasa"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "search",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:3000/api/design/search?q=sasa",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"design",
+										"search"
+									],
+									"query": [
+										{
+											"key": "q",
+											"value": "sasa"
+										}
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "2213"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"8a5-WngQW3lNx4dQaFKikkA6ZGrNGio\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Mar 2023 04:34:08 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"tags\": [],\n        \"_id\": \"641c72213193b03b5d43aecc\",\n        \"title\": \"sam karan\",\n        \"description\": \"sam@yopmail.com\",\n        \"creator\": \"641c72213193b03b5d43aecb\",\n        \"price\": 12,\n        \"created_at\": \"2023-03-23T15:37:05.774Z\",\n        \"updated_at\": \"2023-03-23T15:37:05.774Z\",\n        \"__v\": 0\n    },\n    {\n        \"tags\": [],\n        \"_id\": \"641c72453193b03b5d43aecf\",\n        \"title\": \"sample product\",\n        \"description\": \"sam@yopmail.com\",\n        \"creator\": \"641c72453193b03b5d43aece\",\n        \"price\": 12,\n        \"created_at\": \"2023-03-23T15:37:41.816Z\",\n        \"updated_at\": \"2023-03-24T03:32:05.034Z\",\n        \"__v\": 0\n    },\n    {\n        \"tags\": [],\n        \"_id\": \"641d10b2494417a009ca93b6\",\n        \"title\": \"product2\",\n        \"description\": \"product1product1product1product1\",\n        \"creator\": \"641d10b2494417a009ca93b5\",\n        \"price\": 13,\n        \"created_at\": \"2023-03-24T02:53:38.439Z\",\n        \"updated_at\": \"2023-03-24T02:53:38.439Z\",\n        \"__v\": 0\n    },\n    {\n        \"tags\": [],\n        \"_id\": \"641d1a98e9738584a654c59b\",\n        \"title\": \"product3\",\n        \"description\": \"product1product1product1product1\",\n        \"creator\": \"641d1a98e9738584a654c59a\",\n        \"price\": 13,\n        \"created_at\": \"2023-03-24T03:35:52.604Z\",\n        \"updated_at\": \"2023-03-24T03:35:52.604Z\",\n        \"__v\": 0\n    },\n    {\n        \"tags\": [],\n        \"_id\": \"641d1b86cd8af6ef0abb1ec0\",\n        \"title\": \"product4\",\n        \"description\": \"product4product4product4product4\",\n        \"creator\": \"641d1b86cd8af6ef0abb1ebf\",\n        \"price\": 133,\n        \"created_at\": \"2023-03-24T03:39:50.401Z\",\n        \"updated_at\": \"2023-03-24T03:39:50.401Z\",\n        \"__v\": 0\n    },\n    {\n        \"tags\": [],\n        \"_id\": \"641d1bb6d703761ff3072f1d\",\n        \"title\": \"sample product44\",\n        \"description\": \"sam@yopmail.com\",\n        \"creator\": \"641c608ff4c9a25726b3b225\",\n        \"price\": 12,\n        \"created_at\": \"2023-03-24T03:40:38.641Z\",\n        \"updated_at\": \"2023-03-24T03:43:33.950Z\",\n        \"__v\": 0\n    },\n    {\n        \"tags\": [],\n        \"_id\": \"641d1dd599fe2634cd01ff84\",\n        \"title\": \"product5\",\n        \"description\": \"product5product5product5\",\n        \"creator\": \"641c608ff4c9a25726b3b225\",\n        \"price\": 133,\n        \"created_at\": \"2023-03-24T03:49:41.375Z\",\n        \"updated_at\": \"2023-03-24T03:49:41.375Z\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"641d1e1e0a797b5c7580794b\",\n        \"title\": \"product6\",\n        \"description\": \"product 6 sadas asd as das dasd\",\n        \"creator\": \"641c608ff4c9a25726b3b225\",\n        \"price\": 133,\n        \"tags\": [],\n        \"created_at\": \"2023-03-24T03:50:54.683Z\",\n        \"updated_at\": \"2023-03-24T03:50:54.683Z\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"641d1e556412fa985762d27e\",\n        \"title\": \"product7\",\n        \"description\": \"product 7 sadas asd as das dasd\",\n        \"creator\": \"641c608ff4c9a25726b3b225\",\n        \"price\": 134,\n        \"tags\": [\n            \"sasa\",\n            \"asda\"\n        ],\n        \"created_at\": \"2023-03-24T03:51:49.385Z\",\n        \"updated_at\": \"2023-03-24T03:51:49.385Z\",\n        \"__v\": 0\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "get Assets",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/Kawal HR/Pictures/Screenshots/Screenshot 2023-03-15 111327.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "127.0.0.1:3000/api/design/asset/641c72213193b03b5d43aecc",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"design",
+								"asset",
+								"641c72213193b03b5d43aecc"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get Assets",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "file",
+											"type": "file",
+											"src": "/C:/Users/Kawal HR/Pictures/Screenshots/Screenshot 2023-03-15 111327.png"
+										}
+									]
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/design/asset/641c72213193b03b5d43aecc",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"design",
+										"asset",
+										"641c72213193b03b5d43aecc"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "361"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"169-lv/sUyDggl5+Gldt8AOqRSIfydg\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Mar 2023 06:10:43 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"_id\": \"641c72213193b03b5d43aecc\",\n    \"assets\": [\n        \"https://dvdrom.sgp1.digitaloceanspaces.com/Design/641c72213193b03b5d43aecc/assets/Screenshot%202023-03-15%20101115-a7872bd6-22d0-4776-9435-d0c32d0f0f56.png\",\n        \"https://dvdrom.sgp1.digitaloceanspaces.com/Design/641c72213193b03b5d43aecc/assets/Screenshot%202023-03-15%20111327-da0e68c7-f47b-441e-90dd-15dd752992ee.png\"\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "add Assets",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDFjNjA4ZmY0YzlhMjU3MjZiM2IyMjUiLCJlbWFpbCI6InNhbUB5b3BtYWlsLmNvbSIsImlhdCI6MTY3OTYyODgwOX0.EPKfVaBsluMQDEG7AWPS4h_Oxkw1v2ssGVZbaVKXuiA",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/Kawal HR/Pictures/Screenshots/Screenshot 2023-03-15 111327.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "127.0.0.1:3000/api/design/asset/641d46507a8f2f706df9d2a1",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"design",
+								"asset",
+								"641d46507a8f2f706df9d2a1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "add Assets",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDFjNjA4ZmY0YzlhMjU3MjZiM2IyMjUiLCJlbWFpbCI6InNhbUB5b3BtYWlsLmNvbSIsImlhdCI6MTY3OTYyODgwOX0.EPKfVaBsluMQDEG7AWPS4h_Oxkw1v2ssGVZbaVKXuiA",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "file",
+											"type": "file",
+											"src": "/C:/Users/Kawal HR/Pictures/Screenshots/Screenshot 2023-03-15 111327.png"
+										}
+									]
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/design/asset/641d46507a8f2f706df9d2a1",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"design",
+										"asset",
+										"641d46507a8f2f706df9d2a1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "361"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"169-8N6pvRvopwIfDCrNWUO85UEVBcU\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Mar 2023 06:46:37 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"_id\": \"641d46507a8f2f706df9d2a1\",\n    \"assets\": [\n        \"https://dvdrom.sgp1.digitaloceanspaces.com/Design/641d46507a8f2f706df9d2a1/assets/Screenshot%202023-03-15%20111327-553e8b17-aa4e-4b25-8bf3-70bbc122e616.png\",\n        \"https://dvdrom.sgp1.digitaloceanspaces.com/Design/641d46507a8f2f706df9d2a1/assets/Screenshot%202023-03-15%20111327-e7248a7c-20d2-4453-a885-1acdcc55ae3e.png\"\n    ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"sam karan\",\r\n    \"email\":\"sam1@yopmail.com\",\r\n    \"phone\":\"1212121212\",\r\n    \"gender\":\"male\",\r\n    \"password\":\"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:3000/api/auth/signup",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"auth",
+								"signup"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "signup",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\":\"sam karan\",\r\n    \"email\":\"sam1@yopmail.com\",\r\n    \"phone\":\"1212121212\",\r\n    \"gender\":\"male\",\r\n    \"password\":\"123456\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/auth/signup",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"auth",
+										"signup"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "39"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"27-O/zF1M4EsSeqcgZOzAXUbc5OpUA\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Mar 2023 02:38:30 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"User created successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \r\n    \"email\":\"sam1@yopmail.com\",\r\n    \"password\":\"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:3000/api/auth/login",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n   \r\n    \"email\":\"sam1@yopmail.com\",\r\n    \"password\":\"123456\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/auth/login",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"auth",
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "227"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"e3-hLd4QfSLz9eva3yc4lNVlW6WxH8\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Mar 2023 03:12:28 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"success\",\n    \"accessToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDFkMGQyNjBmYjM4YTgxZGU5YjkxNGEiLCJlbWFpbCI6InNhbTFAeW9wbWFpbC5jb20iLCJpYXQiOjE2Nzk2Mjc1NDh9.ZE5_42UMQzTvjEtnmbeUMjTCC3ju5irRmKQXLlHe1h8\"\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
